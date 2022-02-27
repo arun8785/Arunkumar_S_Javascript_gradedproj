@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>toDoListApp</title>
+    <link rel="stylesheet" href="toDoList.css" />
+  </head>
+  <body>
+    <div id="fullBlock">
+      <div>
+        <h1>To-Do List App</h1>
+      </div>
+      <div class="todobox">
+        <input type="text" id="taskAdd" name="taskAdd" placeholder="Add Todo" />
+        <button id="addTaskBtn">Add</button>
+        <input id="saveIndex" type="hidden" />
+        <button id="editTodoBtn" style="display: none">Edit Todo</button>
+      </div>
+      <div id="listBox"></div>
+    </div>
+    <script src="toDolist.js"></script>
+  </body>
+</html>

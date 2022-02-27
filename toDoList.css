@@ -1,0 +1,102 @@
+#fullBlock {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  padding: 10px;
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+input {
+  width: 300px;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  height: 30px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: blue;
+}
+button {
+  border-radius: 5px;
+  height: 36px;
+  width: 55px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  background-color: blue;
+}
+
+#listbox {
+  display: block;
+  border-color: antiquewhite;
+  border-style: solid;
+  border-width: 0px;
+  line-height: 24px;
+  tab-size: 4;
+  text-size-adjust: 100%;
+  margin-bottom: 16px;
+}
+
+.savelist {
+  display: flex;
+  align-items: center;
+  border-color: antiquewhite;
+  border-style: solid;
+  border-width: 0px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  tab-size: 4;
+  text-size-adjust: 100%;
+}
+
+.todolist {
+  display: block;
+  border-color: rgb(229, 231, 235);
+  border-style: solid;
+  border-width: 0px;
+  line-height: 24px;
+  width: 250px;
+  box-sizing: border-box;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-bottom: 0px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.editbut {
+  align-items: flex-start;
+  display: block;
+  appearance: button;
+  background-color: rgb(5, 150, 105);
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  margin-left: 16px;
+}
+
+.deletebut {
+  align-items: flex-start;
+  display: block;
+  appearance: button;
+  background-color: rgb(239, 68, 68);
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  margin-left: 16px;
+}
+
+.todobox {
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-bottom: 16px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
